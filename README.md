@@ -1,4 +1,4 @@
-# word-vector-inference
+# Sentiment classification of Micro-text
 
 
 Requirements
