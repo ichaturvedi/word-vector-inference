@@ -8,4 +8,9 @@ https://blogs.mathworks.com/loren/2017/09/21/math-with-words-word-embeddings-wit
 
 Preprocessing
 ---
+
+We run the script to extract co-efficients in folder 'parameters' as follows:
+
+perl getemotionaffect.pl affectivespace.csv senticnet.csv
 - Download 'affectivespace.csv' and 'senticnet.csv' from http://sentic.net/downloads/
+- The output is affectivespace for different emotions such as 'happy.csv'
