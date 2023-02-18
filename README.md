@@ -11,7 +11,8 @@ https://blogs.mathworks.com/loren/2017/09/21/math-with-words-word-embeddings-wit
 
 Micro-text
 ---
-<img width="391" alt="Screenshot 2023-02-18 at 1 44 23 pm" src="https://user-images.githubusercontent.com/65399216/219829803-1a1a2335-850f-430d-8b93-2759d877dc31.png">
+
+
 
 Preprocessing
 ---
