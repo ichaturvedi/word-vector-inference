@@ -1,6 +1,6 @@
 function [sent_stiffness, sent_curvature, sent_mode, sent_variance] = sent_parameters(filename)
 
-happy = load('sadness.csv');
+happy = load(filename);
 X = happy(:,1:2);
 X = happy(:,1:2);
 Y = happy(:,3:4);
