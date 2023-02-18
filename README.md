@@ -12,7 +12,7 @@ https://blogs.mathworks.com/loren/2017/09/21/math-with-words-word-embeddings-wit
 Micro-text
 ---
 <img width="391" alt="micro" src="https://user-images.githubusercontent.com/65399216/219829913-c73be03f-8e51-405a-84e1-c2a5f44efd22.png">
-- Word vectors represent each word in Affectivespace with angle \theta
+- Word vectors represent each word in Affectivespace with angle &theta
 
 Preprocessing
 ---
