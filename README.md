@@ -21,3 +21,14 @@ perl getemotionaffect.pl affectivespace.csv senticnet.csv
 [sent_stiffness, sent_curvature, sent_mode, sent_variance] = sent_parameters(filename)
 - filename is the emotion file such as 'happy.csv'
 - update coeffsent.mat with parameters for each emotion
+
+Microtext Classification
+---
+
+We run the script to classify microtext in folder 'classifier' as follows:
+
+[score1, score2] = microtext_classifier('tweets_sub.txt','sent_model.mat','vocab.mat')
+- The tweets containing microtext are in file 'tweets_sub.txt'
+- The output 'score1' are the predicted labels without imputing word vectors
+- The output 'score2' are the predicted labels after using word vector imputation
+
