@@ -32,3 +32,6 @@ We run the script to classify microtext in folder 'classifier' as follows:
 - The output 'score1' are the predicted labels without imputing word vectors
 - The output 'score2' are the predicted labels after using word vector imputation
 
+[fmeaavg, accavg] = sentfmea3(score2, 'labels.txt')
+- The manually annotated labels are in 'labels.txt'
+- The average three class fmeasure and accuracy are outputs
