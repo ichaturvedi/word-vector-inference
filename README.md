@@ -16,3 +16,5 @@ perl getemotionaffect.pl affectivespace.csv senticnet.csv
 - The output is affectivespace for different emotions such as 'happy.csv'
 
 [sent_stiffness, sent_curvature, sent_mode, sent_variance] = sent_parameters(filename)
+- filename is the emotion file such as 'happy.csv'
+- update coeffsent.mat with parameters for each emotion
