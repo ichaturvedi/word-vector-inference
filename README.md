@@ -1,5 +1,7 @@
 # Sentiment classification of Micro-text
+This code implements the model discussed in the paper on modeling sentiment classification of micro-texts that contain a different sequnce of characters compared to the original text. For example 'tonight' is abbreviated as '2nite'. Such words are not a part of the vocabulary and hence word vectors have to be inferred from neighbours such as a bi-gram or tri-gram model. 
 
+It uses a spatio-temporal model to capture the movement of face muscles over time. Multi-objective optimisation is used to introduce constraints due to multiple facial actions simultaneously in a single emotion. 
 
 Requirements
 ---
