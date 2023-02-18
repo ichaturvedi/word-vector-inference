@@ -1,8 +1,7 @@
 % Positive: 1, Negative: 2, Neutral: 3
 
-function [fmeaavg, accavg] = sentfmea3(score1, score2, labels)
+function [fmeaavg, accavg] = sentfmea3(score2, labels)
 
-orig = score1;
 pred = score2;
 label = load(labels);
 cnt = 1;
@@ -10,20 +9,12 @@ for i = 1:size(label,1)
 
     T1(i) = label(i);
 
-    if orig(i)>=0.3
+    if pred(i)>=0.3
         T2(i) = 1;
-    elseif orig(i) >=0.1
+    elseif pred(i) >=0.1
         T2(i) = 3;
     else
         T2(i) = 2;
-    end
-
-    if pred(i)>=0.3
-        T3(i) = 1;
-    elseif pred(i) >=0.1
-        T3(i) = 3;
-    else
-        T3(i) = 2;
     end
 
 end
