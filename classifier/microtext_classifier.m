@@ -1,9 +1,5 @@
 function [score1, score2] = classifier_microtext(filename, model, vocab)
 
-%filename = 'sample.txt'
-%model = 'sent_model.mat'
-%vocab = 'vocab.mat'
-
 fid = fopen(filename);
 txt = textscan(fid,'%s','delimiter','\n');
 load(model);
