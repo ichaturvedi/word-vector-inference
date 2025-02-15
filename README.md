@@ -42,3 +42,5 @@ We run the script to classify microtext in folder 'vibe_classifier' as follows:
 [fmeaavg, accavg] = sentfmea3(score2, 'labels.txt')
 - The manually annotated labels are in 'labels.txt'
 - The average three class fmeasure and accuracy are outputs
+
+Paper link : https://onlinelibrary.wiley.com/doi/10.1111/exsy.13589
